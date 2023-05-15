@@ -1,0 +1,225 @@
+
+/* elko */
+html{
+    
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    width: 100%;
+}
+/* lg devices */
+@media (min-width: 1200px){
+    .cl-1-lg,
+    .cl-2-lg,
+    .cl-3-lg,
+    .cl-4-lg,
+    .cl-5-lg,
+    .cl-6-lg,
+    .cl-7-lg,
+    .cl-8-lg,
+    .cl-9-lg,
+    .cl-10-lg,
+    .cl-11-lg,
+    .cl-12-lg{
+        float: none;
+        border: 2px solid green;
+    }
+    .cl-1-lg{
+        width: 8.33%;
+    }
+    .cl-2-lg{
+        width: 16.66%;
+    }
+    .cl-3-lg{
+        width: 25%;
+    }
+    .cl-4-lg{
+        width: 33.33%;
+    }
+    .cl-5-lg{
+        width: 41.66%;
+    }
+    .cl-6-lg{
+        width: 50%;
+    }
+    .cl-7-lg{
+        width: 58.33%;
+    }
+    .cl-8-lg{
+        width: 66.66%;
+    }
+    .cl-9-lg{
+        width: 75%;
+    }
+    .cl-10-lg{
+        width: 83.33%;
+    }
+    .cl-11-lg{
+        width: 91.66%;
+    }
+    .cl-12-lg{
+        width: 100%;
+    }
+}
+
+/* small devices */
+@media (min-width: 380px) and (max-width: 899px){
+    .cl-1-sm,
+    .cl-2-sm,
+    .cl-3-sm,
+    .cl-4-sm,
+    .cl-5-sm,
+    .cl-6-sm,
+    .cl-7-sm,
+    .cl-8-sm,
+    .cl-9-sm,
+    .cl-10-sm,
+    .cl-11-sm,
+    .cl-12-sm{
+        float: left;
+        border: 1px solid green;
+    }
+    .cl-1-sm{
+        width: 8.33%;
+    }
+    .cl-2-sm{
+        width: 16.66%;
+    }
+    .cl-3-sm{
+        width: 25%;
+    }
+    .cl-4-sm{
+        width: 33.33%;
+    }
+    .cl-5-sm{
+        width: 41.66%;
+    }
+    .cl-6-sm{
+        width: 50%;
+    }
+    .cl-7-sm{
+        width: 58.33%;
+    }
+    .cl-8-sm{
+        width: 66.66%;
+    }
+    .cl-9-sm{
+        width: 75%;
+    }
+    .cl-10-sm{
+        width: 83.33%;
+    }
+    .cl-11-sm{
+        width: 91.66%;
+    }
+    .cl-12-sm{
+        width: 100%;
+    }
+}
+
+#nagłowek{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 162px;
+    background: #416F83;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#podłoga{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: #416F83;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+}
+#logofooter{
+    float: left;
+    width: 200px;
+    height: 30px;
+}
+section{
+    display: flex;
+}
+.container{
+    max-width: 1400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.container > img {
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 150px;
+}
+.container > img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.container > p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    
+    color: #FFC327;
+    text-align: center;
+    
+}
+#buty{
+    width: 100px;
+    left: 250px;
+    top: 250px;
+}
+#koszulki{
+    width: 100px;
+    left: 850px;
+    top: 250px;
+}
+#bluzy{
+    width: 100px;
+    left: 250px;
+    top: 730px;
+}
+#dodatki{
+    width: 100px;
+    left: 850px;
+    top: 730px;
+}
+@media(max-width: 1218px){
+    #koszulki{
+        width: 100px;
+        left: 250px;
+        top: 730px;
+    }
+    #bluzy{
+        width: 100px;
+        left: 250px;
+        top: 1230px;
+    }
+    #dodatki{
+    width: 100px;
+    left: 250px;
+    top: 1730px;
+}
+}
+
+
